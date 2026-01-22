@@ -1,10 +1,3 @@
-/*
- Name: Dylan Wright
- Date: March 10th, 2023
- Assignment 5: Multiple choice game
- Purpose: to make a graphic multiple choice game
- */
-
 // declaring variables
 int score = 0;
 String correct = "";
@@ -64,7 +57,7 @@ void setup() {
 
   // Question #3
   question [2] = "Who was the first player to score 50 goals in a season?";
-  A [2] = "Booby Orr";
+  A [2] = "Bobby Orr";
   B [2] = "Bobby Hull";
   C [2] = "Bernie Geoffrion";
   D [2] = "Maurice Richard";
@@ -112,7 +105,7 @@ void setup() {
 
   // Question #9
   question [8] = "Who won the Standley Cup in 2020?";
-  A [8] = "Dallas Start";
+  A [8] = "Dallas Stars";
   B [8] = "Tampa Bay Lightning";
   C [8] = "Ottawa Senators";
   D [8] = "Toronto Maple Leafs";
@@ -120,7 +113,7 @@ void setup() {
 
   // Question #10
   question [9] = "Who won the Standley Cup in 2021?";
-  A [9] = "Dallas Start";
+  A [9] = "Dallas Stars";
   B [9] = "Tampa Bay Lightning";
   C [9] = "Ottawa Senators";
   D [9] = "Toronto Maple Leafs";
@@ -166,7 +159,6 @@ void setup() {
   D [14] = "3";
   answer [14] = "c";
 }
-
 
 void draw ()
 {
